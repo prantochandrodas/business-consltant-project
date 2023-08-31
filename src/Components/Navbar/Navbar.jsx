@@ -55,7 +55,7 @@ const Navbar = () => {
                             {
                                 navigation.map((item, idx) => {
                                     return (
-                                        <li key={idx} className="font-semibold hover:text-indigo-600">
+                                        <li key={idx} className="font-semibold  hover:text-indigo-600">
                                             <div onClick={() => setState(!state)}>
                                                 {item.title}
                                             </div>

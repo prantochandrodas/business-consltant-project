@@ -5,7 +5,7 @@ import bannerBg from '../../assets/bannerbg.png'
 
 const Header = () => {
     return (
-        <div style={{ backgroundImage: `url(${bannerBg})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+        <div style={{ backgroundImage: `url(${bannerBg})`,filter:'brightness(1.50)', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center' }}>
             <Navbar></Navbar>
             <div className="">
                 <div className="relative w-[95%] mx-auto flex flex-col-reverse py-16 lg:pt-0 lg:flex-col lg:pb-20">

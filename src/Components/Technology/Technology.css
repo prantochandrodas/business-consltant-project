@@ -1,0 +1,15 @@
+.technologies .techology {
+    background-color: white;
+    box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.75);
+    
+    padding: 4px;
+    overflow: hidden;
+}
+
+/* .technologies .techology img{
+    width: 120px;
+    margin: auto;
+    height: 100px;
+} */
