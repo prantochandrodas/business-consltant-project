@@ -6,6 +6,7 @@ import node from '../../assets/node.png'
 import shopify from '../../assets/shopify.png'
 import angular from '../../assets/angular.png'
 import mern from '../../assets/MERN.png'
+import mernfullstack from '../../assets/mern-fullstack.png'
 
 const Technolory = () => {
     return (
@@ -32,6 +33,9 @@ const Technolory = () => {
                 </div>
                 <div className='techology lg:w-[200px] lg:h-[70px] w-[150px] h-[70px]'>
                     <img className='lg:w-[140px] w-[100px] h-[60px] mx-auto my-auto' src={mern} alt="" />
+                </div>
+                <div className='techology lg:w-[200px] lg:h-[70px] w-[150px] h-[70px]'>
+                    <img className='lg:w-[180px] w-[100px] h-[60px] mx-auto my-auto' src={mernfullstack} alt="" />
                 </div>
             </div>
             

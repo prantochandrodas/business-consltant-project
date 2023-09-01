@@ -18,7 +18,7 @@ const WorkWith = () => {
             </div>
             <div className='my-10 lg:my-0'>
                 <h2 className='text-xl mb-2 font-semibold'>WE ARE ON SOCIAL</h2>
-                <p className='text-gray-600'>Like and Subscribe our Social Media page! You'll get the latest Encoders company news, updates and career opportunities.</p>
+                <p className='text-gray-600'>Like and Subscribe our Social Media page! Youll get the latest Encoders company news, updates and career opportunities.</p>
                 <img src={social2} alt="" />
             </div>
         </div>

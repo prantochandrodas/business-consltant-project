@@ -2,7 +2,7 @@ import photo from '../../assets/Ajay Agarwal.jpg'
 import './AboutCeo.css'
 const AboutCeo = () => {
     return (
-        <div>
+        <div className='w-[90%] lg:w-full mx-auto'>
             <h2 className='capitalize font-semibold lg:text-2xl text-center my-20'>Meet The visionary of fingertips</h2>
             <div id='sty' className='w-[95%] mx-auto lg:flex justify-center items-center'>
             <div className="circle image-wrap small lg:w-[40%]">
