@@ -1,12 +1,12 @@
-import img from '../../assets/touch-bundle-hero-new.png'
+import img from '../../assets/MobileDevelopment/WhatsApp Image 2023-09-01 at 6.14.25 PM.jpeg'
 
 const MobileDevelopment = () => {
     return (
-        <div className='lg:flex mt-20 w-[95%] mx-auto'>
+        <div className='lg:flex mt-20 w-[95%] mx-auto my-10'>
             <img src={img} className='lg:w-[600px]' alt="" />
             <div>
                 <h2 className='font-semibold text-2xl'>MOBILE APP DEVELOPMENT</h2>
-                <p>
+                <p className='text-justify'>
                     We provide wide range of enterprise mobile app development services including mobile UI design, smartphone solutions, custom application and many more.
                     <br /><br />
                     Considering these reasons, you must think about dealing with a reliable and efficient web development company who can provide you with the right mobile application development platformsfor your business. We at Encoders have a trained and certified team of mobile application development professionals for you to work with.

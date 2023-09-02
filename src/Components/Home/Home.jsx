@@ -2,6 +2,7 @@ import About from "../About/About";
 import AboutCeo from "../AboutCeo/AboutCeo";
 import Clients from "../Clients/Clients";
 import ContactForm from "../ContactFrom/ContactForm";
+import EcommerceDevelopment from "../EcommerceDevelopment/EcommerceDevelopment";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import HireDeveloper from "../HireDeveloper/HireDeveloper";
@@ -19,6 +20,7 @@ const Home = () => {
             <Header></Header>
             <MobileDevelopment></MobileDevelopment>
             <About></About>
+            <EcommerceDevelopment></EcommerceDevelopment>
             <Services></Services>
             <WorkWith></WorkWith>
             <OnSocial></OnSocial>

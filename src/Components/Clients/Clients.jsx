@@ -33,8 +33,8 @@ const Clients = () => {
             {
                 breakpoint: 480,
                 settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToShow: 2,
+                    slidesToScroll: 2
                 }
             }
         ]
@@ -43,28 +43,28 @@ const Clients = () => {
         <div style={{backgroundImage:`url('https://www.encoders.co.in/images/client_bg.jpg')`}}>
             <div className="w-[80%] lg:w-[90%] mx-auto py-20">
             <Slider {...settings}>
-                <div className="bg-white !w-[200px] !flex !justify-center items-center !h-[100px]">
+                <div className="bg-white !w-[150px] lg:!w-[200px] !flex !justify-center items-center !h-[100px]">
                   <img className="w-[100px]" src="https://www.encoders.co.in/images/portfolio/client/vidyathri.png" alt="" />
                 </div>
-                <div className="bg-white !w-[200px] !flex !justify-center items-center !h-[100px]">
+                <div className="bg-white !w-[150px] lg:!w-[200px] !flex !justify-center items-center !h-[100px]">
                   <img className="w-[100px]" src="https://www.encoders.co.in/images/portfolio/client/zehn.png" alt="" />
                 </div>
-                <div className="bg-white !w-[200px] !flex !justify-center items-center !h-[100px]">
+                <div className="bg-white !w-[150px] lg:!w-[200px] !flex !justify-center items-center !h-[100px]">
                   <img className="w-[100px]" src="https://www.encoders.co.in/images/portfolio/client/rueda.png" alt="" />
                 </div>
-                <div className="bg-white !w-[200px] !flex !justify-center items-center !h-[100px]">
+                <div className="bg-white !w-[150px] lg:!w-[200px] !flex !justify-center items-center !h-[100px]">
                   <img className="w-[100px]" src="https://www.encoders.co.in/images/portfolio/client/fikarrnot.png" alt="" />
                 </div>
-                <div className="bg-white !w-[200px] !flex !justify-center items-center !h-[100px]">
+                <div className="bg-white !w-[150px] lg:!w-[200px] !flex !justify-center items-center !h-[100px]">
                   <img className="w-[100px]" src="https://www.encoders.co.in/images/portfolio/client/ms_fitness.png" alt="" />
                 </div>
-                <div className="bg-white !w-[200px] !flex !justify-center items-center !h-[100px]">
+                <div className="bg-white !w-[150px] lg:!w-[200px] !flex !justify-center items-center !h-[100px]">
                   <img className="w-[100px]" src="https://www.encoders.co.in/images/portfolio/client/diyday.png" alt="" />
                 </div>
-                <div className="bg-white !w-[200px] !flex !justify-center items-center !h-[100px]">
+                <div className="bg-white !w-[150px] lg:!w-[200px] !flex !justify-center items-center !h-[100px]">
                   <img className="w-[100px]" src="https://www.encoders.co.in/images/portfolio/client/cancerra.png" alt="" />
                 </div>
-                <div className="bg-white !w-[200px] !flex !justify-center items-center !h-[100px]">
+                <div className="bg-white !w-[150px] lg:!w-[200px] !flex !justify-center items-center !h-[100px]">
                   <img className="w-[100px]" src="https://www.encoders.co.in/images/portfolio/logo/client42.png" alt="" />
                 </div>
             </Slider>

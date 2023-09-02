@@ -9,6 +9,8 @@ import {
 } from "react-router-dom";
 import Main from './Main/Main';
 import Home from './Components/Home/Home';
+import PageLayout from './Layouts/PageLayout/PageLayout';
+import CotactUsPage from './Components/ContactUsPage/CotactUsPage';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -20,6 +22,16 @@ const router = createBrowserRouter([
       }
     ]
   },
+  {
+    path:'/contact',
+    element:<PageLayout></PageLayout>,
+    children:[
+      {
+        path:'/contact',
+        element:<CotactUsPage></CotactUsPage>
+      }
+    ]
+  }
 ]);
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

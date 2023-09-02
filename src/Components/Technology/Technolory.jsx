@@ -12,7 +12,7 @@ const Technolory = () => {
     return (
         <div className="lg:w-[80%] w-[90%] mx-auto lg:my-10">
             <h1 className='text-center font-semibold lg:text-2xl mb-20'>Technolgies we work </h1>
-            <div className='technologies lg:grid lg:grid-cols-4 lg:gap-10 grid grid-cols-2 gap-[20px]'>
+            <div className='technologies lg:grid lg:grid-cols-4 lg:gap-10 md:grid md:grid-cols-4 md:gap-10 grid grid-cols-2 gap-[20px]'>
                 <div className='techology lg:w-[200px] lg:h-[70px] w-[150px] h-[70px]'>
                     <img className='lg:w-[140px] w-[100px] h-[60px] mx-auto my-auto' src={wordprass} alt="" />
                 </div>

@@ -11,7 +11,7 @@ const AboutCeo = () => {
             <div className='lg:w-[60%] lg:ml-4'>
                 <h3 className='font-bold'>Ajay Agarwal</h3>
                 <p className='font-semibold'>Founder & Director</p>
-                <p className='text-[14px]'>A technological visionary and dynamic implementer, I serve as the bedrock of  Fingertip, driving the continuous growth and evolution of the brand and its business in tandem with the ever-changing landscape of time and technology.
+                <p className='text-[14px] text-justify'>A technological visionary and dynamic implementer, I serve as the bedrock of  Fingertip, driving the continuous growth and evolution of the brand and its business in tandem with the ever-changing landscape of time and technology.
                     <br />
                     With an illustrious career spanning over twenty years, including a pivotal five-year tenure within the banking sector during my formative years, I have cultivated a deep-rooted appreciation for the significance of discipline and time management.
                     <br />

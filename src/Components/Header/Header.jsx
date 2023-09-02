@@ -14,10 +14,10 @@ const Header = () => {
                     <div className="relative flex flex-col items-start w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:max-w-screen-xl">
                         <div className="mb-16 lg:my-4 lg:max-w-lg lg:pr-5">
 
-                            <h2 className="mb-5 font-sans text-white text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none">
+                            <h2 className="mb-5  font-sans text-white text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none">
                                 Crafting Innovative Software Solutions and Strategic Business Insights for Success
                             </h2>
-                            <p className="pr-5 text-white mb-5 text-base  md:text-lg">
+                            <p className="pr-5 text-white mb-5 text-base  md:text-lg text-justify">
                                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                                 accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
                                 quae. explicabo.

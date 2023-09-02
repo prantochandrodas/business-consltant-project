@@ -1,9 +1,8 @@
 import { useState } from "react";
-import logo from '../../assets/logo.png';
 import { Link } from "react-router-dom";
+import logo from '../../assets/logo.png'
 
-
-const Navbar = () => {
+const LayOutNavbar = () => {
     const navigation = [
         { title: "Home", path: "/" },
         { title: "Services", path: "/" },
@@ -15,7 +14,7 @@ const Navbar = () => {
 
     const [state, setState] = useState(false);
     return (
-        <div>
+        <div className="bg-white">
             <nav className="top-0 z-30 w-[95%] mx-auto nav-border md:border-0 md:static">
                 <div className="items-center px-4 max-w-screen-xl mx-auto md:flex">
                     <div className="flex items-center justify-between py-3 md:py-2 md:block">
@@ -58,7 +57,7 @@ const Navbar = () => {
                                     return (
                                         <li key={idx} className="font-semibold  md:text-[12px] hover:text-indigo-600">
                                             <div onClick={() => setState(!state)}>
-                                               
+
                                                 <Link to={item.path}> {item.title}</Link>
                                             </div>
                                         </li>
@@ -71,18 +70,15 @@ const Navbar = () => {
                         </ul>
                     </div>
                     {/* <div className={`md:inline-block ${state ? 'block' : 'hidden'}`} >
-                        <a className="inline-block rounded border border-[#2b0a3d] bg-[#2b0a3d] px-8 py-2 text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500" href="/download">
-                            Get Started
-                        </a>
+                    <a className="inline-block rounded border border-[#2b0a3d] bg-[#2b0a3d] px-8 py-2 text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500" href="/download">
+                        Get Started
+                    </a>
 
-                    </div> */}
+                </div> */}
                 </div>
             </nav>
-          
-
-
         </div>
     );
 };
 
-export default Navbar;
+export default LayOutNavbar;
