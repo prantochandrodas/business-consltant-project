@@ -1,17 +1,17 @@
-import app from '../../assets/apps.png'
-import ecom from '../../assets/ecom.png'
-import web from '../../assets/web_design.png'
-import webdevelopment from '../../assets/web_development.png'
-import laravel from '../../assets/laraval.png'
-import angular from '../../assets/angular (1).png'
-import sowft from '../../assets/software_development.png'
-import i_marketing from '../../assets/i_marketing.png'
-import gps from '../../assets/gpsloc.png'
+import app from '../../../assets/apps.png'
+import ecom from '../../../assets/ecom.png'
+import web from '../../../assets/web_design.png'
+import webdevelopment from '../../../assets/web_development.png'
+import laravel from '../../../assets/laraval.png'
+import angular from '../../../assets/angular (1).png'
+import sowft from '../../../assets/software_development.png'
+import i_marketing from '../../../assets/i_marketing.png'
+import gps from '../../../assets/gpsloc.png'
 
 const Services = () => {
     return (
         <div className='bg-[#efefef] lg:my-20'>
-            <div className='w-[90%] mx-auto lg:grid md:grid md:grid-cols-2 grid-cols-3 gap-x-10 py-20'>
+            <div className='w-[90%] mx-auto lg:grid md:grid md:grid-cols-2 grid-cols-3 gap-x-10 py-10'>
                 <div className='my-10 bg-white p-4 rounded-lg border-x border-[red] '>
                     <div className='lg:flex block items-center'>
                         <img src={app} alt="" className='w-[60px]' />

@@ -1,15 +1,14 @@
 import { useState } from "react";
-import logo from '../../assets/logo.png';
+import logo from '../../../assets/logo.png';
 import { Link } from "react-router-dom";
-
+import './Navbar.css'
 
 const Navbar = () => {
     const navigation = [
         { title: "Home", path: "/" },
-        { title: "Services", path: "/" },
-        { title: "About-Us", path: "/myOrder" },
-        { title: "Portfolio", path: "/myOrder" },
-        { title: "Our Clients", path: "/myOrder" },
+        { title: "Services", path: "/service" },
+        { title: "Portfolio", path: "/portfolio" },
+        { title: "About-Us", path: "/about" },
         { title: "Contact Us", path: "/contact" },
     ]
 
@@ -17,8 +16,8 @@ const Navbar = () => {
     return (
         <div>
             <nav className="top-0 z-30 w-[95%] mx-auto nav-border md:border-0 md:static">
-                <div className="items-center px-4 max-w-screen-xl mx-auto md:flex">
-                    <div className="flex items-center justify-between py-3 md:py-2 md:block">
+                <div className="px-4 max-w-screen-xl mx-auto md:flex">
+                    <div className="flex items-center justify-between md:block">
                         <div className='flex items-center justify-between'>
                             <a href="javascript:void(0)">
                                 <img
@@ -52,21 +51,37 @@ const Navbar = () => {
                         </div>
                     </div>
                     <div className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${state ? 'block' : 'hidden'}`}>
-                        <ul className="navtext-color justify-center items-center space-y-8 md:flex md:space-x-10 md:space-y-0">
+                        <ul className="navtext-color justify-center items-center md:flex md:space-y-0">
                             {
                                 navigation.map((item, idx) => {
                                     return (
-                                        <li key={idx} className="font-semibold  md:text-[12px] hover:text-indigo-600">
+                                        <li key={idx} className="font-semibold hover:text-white  hover:bg-black py-4 px-8  md:text-[12px] hover:text-indigo-600">
                                             <div onClick={() => setState(!state)}>
-                                               
+
                                                 <Link to={item.path}> {item.title}</Link>
                                             </div>
                                         </li>
 
                                     )
+
                                 })
                             }
 
+
+
+                            {/* <div className="dropdown inline-block relative">
+                                <Link className="font-semibold hover:text-white  hover:bg-black py-4 px-8  md:text-[12px] hover:text-indigo-600">
+                                    <span className="mr-1">Dropdown</span>
+                                   
+                                </Link>
+                                <ul className="dropdown-menu  absolute hidden text-gray-700 pt-1">
+                                    <li className><a className="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">One</a></li>
+                                    <li className><a className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Two</a></li>
+                                    <li className><a className="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Three is the magic number</a></li>
+                                </ul>
+                            </div> */}
+
+                           
 
                         </ul>
                     </div>
@@ -76,12 +91,12 @@ const Navbar = () => {
                         </a>
 
                     </div> */}
-                </div>
-            </nav>
-          
+                </div >
+            </nav >
 
 
-        </div>
+
+        </div >
     );
 };
 

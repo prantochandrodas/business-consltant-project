@@ -5,7 +5,7 @@ import  social2 from '../../assets/workwith/we-are-on-social2.png'
 
 const WorkWith = () => {
     return (
-        <div className='w-[90%] mx-auto lg:grid lg:grid-cols-3 md:grid md:grid-cols-2 gap-10 my-20'>
+        <div className='w-[90%] mx-auto lg:grid lg:grid-cols-3 md:grid md:grid-cols-2 gap-10 my-10'>
             <div className='my-10 lg:my-0 bg-white flex flex-col justify-between p-4 border-x border-[red] rounded-xl'>
                 <div>
                 <h2 className='text-md mb-2 font-semibold text-center'>TECHNOLOGIES & FRAMEWORK</h2>

@@ -1,4 +1,4 @@
-import photo from '../../assets/Ajay Agarwal.jpg'
+
 import './AboutCeo.css'
 const AboutCeo = () => {
     return (

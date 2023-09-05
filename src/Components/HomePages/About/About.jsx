@@ -1,4 +1,4 @@
-import bgimage from '../../assets/image.png'
+import bgimage from '../../../assets/image.png'
 
 const About = () => {
     return (

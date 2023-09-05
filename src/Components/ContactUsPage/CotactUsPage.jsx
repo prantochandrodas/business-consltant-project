@@ -1,14 +1,16 @@
-import phone from '../../assets/Contact/b60daca1-d001-46b8-8022-f06d8fdfe28e._CR0,0,420,420_PT0_SX220__.jpg'
+
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaArrowUpRightDots,FaEnvelope } from "react-icons/fa6";
+import StickySocialIcon from '../StickySocialIcon/StickySocialIcon';
 
 const CotactUsPage = () => {
     return (
         <div>
+            <StickySocialIcon></StickySocialIcon>
             <div style={{ backgroundImage: `url('https://img.freepik.com/free-vector/black-wallpaper-with-motion-lines-background_1017-30151.jpg?auto=format&h=200')`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center' }}>
                 <div className="w-[90%] mx-auto py-20">
                     <h1 className="uppercase text-4xl text-center text-white">FEEL FREE TO CONSULT ABOUT A FEW DETAILS FOR YOUR PROJECT</h1>
-                    <p className="text-center text-white my-4">Just simply render your contact details and we'll be in touch soon. All communications will be answered within 24 hours except for Sundays and Holidays.</p>
+                    <p className="text-center text-white my-4">Just simply render your contact details and well be in touch soon. All communications will be answered within 24 hours except for Sundays and Holidays.</p>
                 </div>
 
             </div>

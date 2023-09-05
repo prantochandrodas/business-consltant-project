@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom";
-import HeaderTop from "../Components/HeaderTop/HeaderTop";
+import HeaderTop from "../Components/HomePages/HeaderTop/HeaderTop";
 
 
 const Main = () => {

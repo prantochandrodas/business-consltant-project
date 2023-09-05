@@ -1,6 +1,5 @@
 import Navbar from "../Navbar/Navbar";
-import haderPhoto from '../../assets/ecommerce.png'
-import bannerBg from '../../assets/bannerbg.png'
+import bannerBg from '../../../assets/bannerbg.png'
 
 
 const Header = () => {

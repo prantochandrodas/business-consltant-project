@@ -5,10 +5,10 @@ import logo from '../../assets/logo.png'
 const LayOutNavbar = () => {
     const navigation = [
         { title: "Home", path: "/" },
-        { title: "Services", path: "/" },
-        { title: "About-Us", path: "/myOrder" },
-        { title: "Portfolio", path: "/myOrder" },
+        { title: "Services", path: "/service" },
+        { title: "Portfolio", path: "/portfolio" },
         { title: "Our Clients", path: "/myOrder" },
+        { title: "About-us", path: "/about" },
         { title: "Contact Us", path: "/contact" },
     ]
 
