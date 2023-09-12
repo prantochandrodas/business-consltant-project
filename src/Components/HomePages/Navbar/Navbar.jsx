@@ -6,7 +6,9 @@ import './Navbar.css'
 const Navbar = () => {
     const navigation = [
         { title: "Home", path: "/" },
+        { title: "Clients", path: "/clients" },
         { title: "Services", path: "/service" },
+        { title: "Hire-Developers", path: "/hiredeveloper" },
         { title: "Portfolio", path: "/portfolio" },
         { title: "About-Us", path: "/about" },
         { title: "Contact Us", path: "/contact" },
@@ -55,7 +57,7 @@ const Navbar = () => {
                             {
                                 navigation.map((item, idx) => {
                                     return (
-                                        <li key={idx} className="font-semibold hover:text-white  hover:bg-black py-4 px-8  md:text-[12px] hover:text-indigo-600">
+                                        <li key={idx} className="font-semibold hover:text-white  hover:bg-black py-4 px-6  md:text-[12px] hover:text-indigo-600">
                                             <div onClick={() => setState(!state)}>
 
                                                 <Link to={item.path}> {item.title}</Link>
@@ -92,11 +94,8 @@ const Navbar = () => {
 
                     </div> */}
                 </div >
-            </nav >
-
-
-
-        </div >
+            </nav>
+        </div>
     );
 };
 

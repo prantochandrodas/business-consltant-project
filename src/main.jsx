@@ -17,6 +17,9 @@ import ServicesMobileDevelopment from './Components/ServicesPages/ServicesMobile
 import PortfolioPage from './Components/PortfolioPages/PortfolioPage';
 import PortfolioMobileDevelopment from './Components/PortfolioPages/PortfolioMobileDevelopment/PortfolioMobileDevelopment';
 import PortfolioPagelogo from './Components/PortfolioPages/PortfolioPagelogo/PortfolioPagelogo';
+import ClientsPage from './Components/ClientsPage/ClientsPage';
+import HireDeveloper from './Components/HireDeveloper/HireDeveloper';
+import HireDevelopersPage from './Components/HireDevelopersPage/HireDevelopersPage';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -82,7 +85,27 @@ const router = createBrowserRouter([
         element:<PortfolioPagelogo></PortfolioPagelogo>
       }
     ]
+  },
+  {
+    path:'/clients',
+    element:<PageLayout></PageLayout>,
+    children:[
+      {
+        path:'/clients',
+        element:<ClientsPage></ClientsPage>
+      }
+    ]
+  },{
+    path:'/hiredeveloper',
+    element:<PageLayout></PageLayout>,
+    children:[
+      {
+        path:'/hiredeveloper',
+        element:<HireDevelopersPage></HireDevelopersPage>
+      }
+    ]
   }
+
 ]);
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

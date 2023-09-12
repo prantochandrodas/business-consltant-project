@@ -5,16 +5,17 @@ import logo from '../../assets/logo.png'
 const LayOutNavbar = () => {
     const navigation = [
         { title: "Home", path: "/" },
+        { title: "Clients", path: "/clients" },
         { title: "Services", path: "/service" },
+        { title: "Hire-Developers", path: "/hiredeveloper" },
         { title: "Portfolio", path: "/portfolio" },
-        { title: "Our Clients", path: "/myOrder" },
-        { title: "About-us", path: "/about" },
+        { title: "About-Us", path: "/about" },
         { title: "Contact Us", path: "/contact" },
     ]
 
     const [state, setState] = useState(false);
     return (
-        <div className="bg-white">
+        <div className="bg-white shadow-xl">
             <nav className="top-0 z-30 w-[95%] mx-auto nav-border md:border-0 md:static">
                 <div className="items-center px-4 max-w-screen-xl mx-auto md:flex">
                     <div className="flex items-center justify-between py-3 md:py-2 md:block">

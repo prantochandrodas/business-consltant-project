@@ -1,5 +1,5 @@
 import Slider from "react-slick";
-
+import img from '../../assets/header/banner2.jpg'
 
 const Clients = () => {
     var settings = {

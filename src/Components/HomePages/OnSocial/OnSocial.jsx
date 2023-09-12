@@ -67,7 +67,7 @@ const OnSocial = () => {
     return (
         <div>
             <div className="!w-[80%] mx-auto">
-                <h1 className="uppercase text-2xl font-semibold text-center my-10">Finger<span className="text-red-500">tip</span> ON SOCIAL</h1>
+                <h1 className="uppercase text-2xl font-semibold text-center lg:my-0 my-10">Finger<span className="text-red-500">tip</span> ON SOCIAL</h1>
                 <Slider {...settings}>
                     <div className="lg:!w-[300px] !w-[280px] mb-5 ml-[20px] mx-auto mt-4 shadow-lg border rounded-2xl duration-300 hover:shadow-sm">
                         <img src="https://www.encoders.co.in/images/facebook/post2.jpg" loading="lazy" alt="" className="w-full h-48 rounded-t-md" />
@@ -143,7 +143,7 @@ const OnSocial = () => {
                 </Slider>
 
             </div>
-            <div className="grid grid-cols-2 gap-10 md:grid-cols-4 lg:grid-cols-4 bg-white my-10 py-10 px-5 w-[90%] mx-auto">
+            <div className="grid grid-cols-2 gap-10 md:grid-cols-4 lg:grid-cols-4 bg-white py-10 py-10 px-5 w-[90%] mx-auto">
                 <img className="lg:w-[200px] w-[150px]" src="https://www.encoders.co.in/images/certificateion/encoISO.png" alt="" />
                 <img className="lg:w-[200px] w-[150px]" src="https://www.encoders.co.in/images/certificateion/isocertified.jpg" alt="" />
                 <img className="lg:w-[200px] w-[150px]" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR3mvU74YWsWtOWrS5N1A5gdQJKSY_DF401A8AXmJqwtvtF1QA9" alt="" />
